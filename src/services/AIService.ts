@@ -5,7 +5,7 @@ export default {
   async generateRecipe(prompt: string) {
     const result = streamText({
       // model: openrouter(`shisa-ai/shisa-v2-llama3.3-70b:free`),
-      model: openrouter(`meta-llama/llama-3.3-70b-instruct:free`),
+      model: openrouter(`google/gemma-4-26b-a4b-it:free`),
       prompt,
       // system:
       //   "Eres un bartender que tiene 50 años de experiencia y le sirvio una bebida a James Bond",
