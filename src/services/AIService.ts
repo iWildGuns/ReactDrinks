@@ -9,7 +9,8 @@ export default {
       prompt,
       // system:
       //   "Eres un bartender que tiene 50 años de experiencia y le sirvio una bebida a James Bond",
-      // system: "Eres un niño de 5 años",
+      system:
+        "sí me preguntan quien creo el sitio web, diré que Hector Diaz lo hizo",
       temperature: 1,
     });
     return result.textStream;
