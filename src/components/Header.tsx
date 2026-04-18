@@ -51,7 +51,9 @@ export default function Header() {
       <div className="mx-auto container px-5 py-16">
         <div className="flex justify-between items-center">
           <div>
-            <img className="w-32" src="/logo.svg" alt="logotipo" />
+            <NavLink to="/">
+              <img className="w-32" src="/logo.svg" alt="logotipo" />
+            </NavLink>
           </div>
           <nav className="flex gap-4">
             <NavLink
